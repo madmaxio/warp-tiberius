@@ -1,0 +1,10 @@
+[package]
+name = "warp-tiberius"
+version = "0.1.0"
+authors = ["Maximb <sprayrules@gmail.com>"]
+edition = "2018"
+
+[dependencies]
+
+tiberius = { git = "https://github.com/steffengy/tiberius", features=["chrono"] }
+warp = { git = "https://github.com/seanmonstar/warp" }
